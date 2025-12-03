@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Title from "./components/Title/Title";
-import TaskForm from "./components/Taskform/TaskForm";
+import TaskForm from "./components/TaskForm/TaskForm"; 
 import TaskItem from "./components/TaskItem/TaskItem";
 import TaskList from "./components/TaskList/TaskList";
 
@@ -15,5 +15,6 @@ function App() {
     </>
   );
 }
+
 
 export default App;
